@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form id="form-input">
+          <input
+            type="search"
+            placeholder="Search Location"
+            autofocus="on"
+            autocomplete="off"
+            id="input-added"
+          />
+          <button type="button" id="button" class="btn btn-success">
+            Location
+          </button>
+        </form>
+        <br />
+        <h3 id="#city">
+          Sydney NSW, Australia
+        </h3>
+        <ul>
+          <li class="date">
+            Wednesday 22:00
+          </li>
+          <li id="feels">
+            Partly Cloudy
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearflex">
+              <div class="float-left">
+                <span id="temperature">19</span
+                ><span class="degrees"
+                  ><a href=" " class="celcius"> °C </a>|
+                  <a href="#" class="fahr">°F</a></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li id="precipitation">Precipitation: %</li>
+              <li id="humidity">Humidity: %</li>
+              <li id="wind">Wind: km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="apps.js"></script>
+  </body>
+</html>
