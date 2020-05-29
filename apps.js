@@ -126,3 +126,5 @@ let currentLocation = document.querySelector("#button");
 currentLocation.addEventListener("click", showTemp);
 
 navigator.geolocation.getCurrentPosition(showPosition);
+
+searchCity | "Cape Town";
