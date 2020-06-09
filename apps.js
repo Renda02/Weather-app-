@@ -83,4 +83,5 @@ searchForm.addEventListener("submit", handleSearch);
 
 let currentLocationButton = document.querySelector("#btn");
 currentLocationButton.addEventListener("click", findLocation);
+
 searchCity("Clarens");
